@@ -1,0 +1,32 @@
+.larger {
+    margin-left: -120px;
+    margin-top: 80px;
+}
+
+.outline {
+    background-color: white;
+    padding: 23px;
+    width: 900px;
+    height: 700px;
+    max-width: inherit;
+    
+}
+
+body {
+    font-family: "Patua One";
+    background-image: url(https://images.hdqwalls.com/wallpapers/progamming-code-4k-nt.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(131, 121, 121, 0.411);
+    padding: 10px;
+    color: black;
+    text-align:center;
+    border-top: solid white 3px;
+}
