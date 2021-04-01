@@ -5,11 +5,13 @@
 
 .outline {
     background-color: white;
-    padding: 23px;
-    width: 900px;
+    padding: 5px;
+    width: 1000px;
     height: 700px;
-    max-width: inherit;
-    
+}
+
+#crd {
+    border: 0;
 }
 
 body {
