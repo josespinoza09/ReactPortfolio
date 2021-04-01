@@ -14,7 +14,7 @@ function NavBar(){
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                <ul class="navbar-nav" text-align:right>
+                <ul class="navbar-nav" style={{textAlign:"right"}}>
                     <li class="nav-item px-2">
                         <NavLink to="/contact"class="nav-link active" aria-current="page" >Contact</NavLink>
                     </li>

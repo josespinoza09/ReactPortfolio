@@ -1,6 +1,11 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from "react"
-import 'index.css'
+import './style.css'
+
+//Images
+import me from '../Assets/me.jpg'
+import Github from '../Assets/Github.png'
+import LinkedIn from '../Assets/LinkedIn.png'
 
 function Index() {
     return (
@@ -13,7 +18,7 @@ function Index() {
                         <div id="crd" class="card mb-3">
                             <div class="row">
                                 <div class="col-sm-7 col-md-5">
-                                    <img class="img-fluid" src="Assets/me.jpg" alt="me" />
+                                    <img class="img-fluid" src={me} alt="me" />
                                 </div>
                                 <div class="col-md-7">
                                     <div class="card-body">
@@ -31,9 +36,9 @@ function Index() {
 
                                     </div>
                                     <a href="https://www.linkedin.com/in/jose-antonio-espinoza-morales-16888716a/" />
-                                    <img src="Assets/LinkedIn.png" alt="Linked in" width="150" height="80" />
+                                    <img src={LinkedIn} alt="Linked in" width="150" height="80" />
                                     <a href="https://github.com/josespinoza09" />
-                                    <img src="Assets/Github.png" alt="GitHub" width="150" height="80" />
+                                    <img src={Github} alt="GitHub" width="150" height="80" />
                                 </div>
                             </div>
                         </div>
