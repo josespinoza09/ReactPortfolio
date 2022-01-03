@@ -30,12 +30,12 @@ function Index() {
                                          understanding and usage of languages and technologies required for this job, like Javascript, React, Node.js, Express.js, API calls, 
                                          and SQL databases. I hope you consider me as an option to add on to the development team.
                                          </p>
-                                        <button><a href="../Assets/JoseEspinozaResume.pdf">Download Resume</a></button>
+                                        <button><a href="Assets\JoseEspinozaResume.pdf" download>Download Resume</a></button>
                                     </div>
-                                    <a href="https://www.linkedin.com/in/jose-antonio-espinoza-morales-16888716a/" />
-                                    <img src={LinkedIn} alt="Linked in" width="150" height="80" />
-                                    <a href="https://github.com/josespinoza09" />
-                                    <img src={Github} alt="GitHub" width="150" height="80" />
+                                    <a href="https://www.linkedin.com/in/jose-antonio-espinoza-morales-16888716a/">
+                                    <button> <img src={LinkedIn} alt="Linked in" width="150" height="80" /> </button> </a>
+                                     <a href="https://github.com/josespinoza09">
+                                    <button><img src={Github} alt="GitHub" width="150" height="80" /> </button> </a>
                                 </div>
                             </div>
                         </div>
