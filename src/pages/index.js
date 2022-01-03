@@ -29,10 +29,8 @@ function Index() {
                                          for startup companies so I am willing to go the extra step to succeed. I have 16 projects in my Github that show my 
                                          understanding and usage of languages and technologies required for this job, like Javascript, React, Node.js, Express.js, API calls, 
                                          and SQL databases. I hope you consider me as an option to add on to the development team.
-                                </p>
-                                        <button><a href="Assets/JoseEspinozaResume.pdf">Download Resume</a></button>
-
-
+                                         </p>
+                                        <button><a href="../Assets/JoseEspinozaResume.pdf">Download Resume</a></button>
                                     </div>
                                     <a href="https://www.linkedin.com/in/jose-antonio-espinoza-morales-16888716a/" />
                                     <img src={LinkedIn} alt="Linked in" width="150" height="80" />
